@@ -20,7 +20,6 @@ int main() {
         vector<set<int>> row;
         while(iss>>tmp) row.push_back({tmp});
         pm.push_back(row);
-        //cout << "end one" << endl;
     }
 
     for (int i = int(pm.size())-1; i > 0; i--) {
